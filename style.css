@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1 {
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+    
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+.about-text {
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.projects {
+        width: 100%;
+        padding: 100px 0px;
+        background-color: white;
+        height: auto;
+        text-align: center;
+        text-decoration: none!important;
+}
+
+.project-link {
+    color: black;
+    font-size: 30px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    text-decoration: none!important;
+}
+h2 {
+    font-size: 75px;
+    text-align: center;
+    text-decoration: none!important;
+}
+
+.projectcard {
+    font-size: 15px;
+}
+
+.card {
+    width: 100%;
+    text-decoration: none!important;
+    color: black;
+}
+
+.card2 {
+    width: 100%;
+    text-decoration: none!important;
+    color: black;
+}
+
+.card3{
+    width: 100%;
+    text-decoration: none!important;
+    color: black;
+}
+
+.skills {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.skilldiv{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.skill-text {
+    width: 550px;
+    color: white;
+}
+
+.ul1 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.ul2 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 80%;
+    bottom: 135px;
+}
